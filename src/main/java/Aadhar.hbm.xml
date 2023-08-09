@@ -1,0 +1,34 @@
+<!DOCTYPE hibernate-mapping PUBLIC 
+    "-//Hibernate/Hibernate Mapping DTD 3.0//EN"
+    "http://www.hibernate.org/dtd/hibernate-mapping-3.0.dtd">
+<hibernate-mapping>
+	<class name="aadharBin.AadharDetail" table="aadharDetails">
+		
+		<id name="aadharNo" column="aadhar_no"></id>
+		
+		<property name="name">
+			<column name="name" />
+		</property>
+		
+		<property name="fatherName">
+			<column name="father_name" />
+		</property>
+		
+		<property name="age">
+			<column name="age" />
+		</property>
+		
+		<property name="address">
+			<column name="address" />
+		</property>
+		
+		<property name="phoneNo">
+			<column name="phone_no" />
+		</property>
+		
+		<property name="email">
+			<column name="email" />
+		</property>
+		
+	</class>
+</hibernate-mapping>
